@@ -4,10 +4,7 @@ import javax.persistence.Entity
 import javax.persistence.Id
 
 @Entity
-class Customer {
-
-  @Id
-  var id: Long = 0
+class Customer : MappedSuper() {
 
   var name: String = ""
 

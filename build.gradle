@@ -50,7 +50,7 @@ sourceSets {
 }
 
 ebean {
-  debugLevel = 9
+  debugLevel = 1
   //queryBeans = true
   //kotlin = true
 }
